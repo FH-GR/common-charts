@@ -1,31 +1,22 @@
 # helm-charts
-A collection of Helm charts
 
-## Goal
+This is a modified version of the [bjw-s charts](https://github.com/bjw-s/helm-charts).
 
-This repo contains Helm charts that I have developed to run applications in my
-[home Kubernetes cluster](https://github.com/bjw-s/home-ops/).
-
-This repo is not intended to be a replacement for any of the large collections
-of Helm charts that are out there.
+All of the addons such as vpn, netshoot, code-server have been removed.
 
 ## Installation
 
 The Helm repository can be installed as follows:
 
 ```console
-helm repo add bjw-s https://bjw-s.github.io/helm-charts
+helm repo add fhgr https://fh-gr.github.io/helm-charts
 ```
 
-You can then run `helm search repo bjw-s` to search the charts.
+You can then run `helm search repo fhgr` to search the charts.
 
 ## Documentation
 
-Documentation can be found [here](https://bjw-s.github.io/helm-charts/docs/).
-
-## Contributing
-
-See [CONTRIBUTING.md](./CONTRIBUTING.md)
+Documentation can be found [here](https://fh-gr.github.io/helm-charts/docs/).
 
 ## License
 
