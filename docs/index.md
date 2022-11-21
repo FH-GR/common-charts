@@ -11,7 +11,7 @@ Refer to Helm's [documentation](https://helm.sh/docs/) to get started.
 ## Installation
 
 ```sh
-helm repo add fhgr http://fhgr.github.io/common-charts/
+helm repo add fhgr http://fh-gr.github.io/common-charts/
 ```
 
 You can then run `helm search repo fhgr` to search the charts.
