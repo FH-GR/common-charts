@@ -1,11 +1,11 @@
 apiVersion: v1
 entries:
   common:
-    apiVersion: v2
-    created: "2022-11-21T17:32:03.504099759+01:00"
+  - apiVersion: v2
+    created: "2022-11-21T17:43:19.891337289+01:00"
     description: Function library for Helm charts
-    digest: 0e8525c712dab5655e8ec97ef15d8b1dc5667df2b349fb909ec499d62743eb66
-    home: https://github.com/fh-gr/helm-charts/tree/main/charts/library/common
+    digest: a45f8fea7f99fb58f670e09511ce58cbff0f478ff47f3964bd9929c9058fbb98
+    home: https://github.com/fh-gr/common-charts/tree/main/charts/library/common
     keywords:
     - common
     - library
@@ -17,4 +17,4 @@ entries:
     urls:
     - https://github.com/FH-GR/common-charts/releases/download/common-1.0.1/common-1.0.1.tgz
     version: 1.0.1
-generated: "2022-11-21T17:32:02.789296127+01:00"
+generated: "2022-11-21T17:43:19.331410657+01:00"
