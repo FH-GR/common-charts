@@ -63,7 +63,8 @@ Volumes included by the controller.
     monitors: {{ required "monitors not set" $persistence.monitors }}
     user: {{ required "user not set" $persistence.user }}
     secretRef:
-      name: {{ required "path not set" $persistence.secretName }}
+      name: {{ required "secretName not set" $persistence.secretName }}
+    path: {{ required "path not set" $persistence.path }}
   {{- else if eq $persistence.type "custom" }}
     {{- toYaml $persistence.volumeSpec | nindent 2 }}
   {{- else }}
